@@ -1,0 +1,154 @@
+
+<!--  This is registation file for a new student .   -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title> This Is a Register page for new student. </title>
+<style>
+.must{
+color:red;
+font-size:25px;
+
+}
+
+h1{
+
+
+text-align:center;
+}
+
+form{
+margin-left:50px;
+
+}
+
+
+
+</style>
+
+</head>
+<body style="background-color: BurlyWood;">
+<h1> REGISTRATION FORM </h1>
+
+<p> <b> Note :</b> <span class="must"> * </span><b>Must Be Required</b></p>
+
+<form action="form_data.php" method="POST">
+   <table width="90%">
+	<tr>
+		<td>First Name :</td>
+		<td    ><input type="text" name="firstname"><span class="must">&nbsp*</span></td>
+		<td>&nbsp &nbsp Last Name :
+			<input type="text" name="lastname"> <span class="must">&nbsp*</span>
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp</td>
+	</tr>
+
+	<tr>
+		<td>Father's Name :</td>
+		<td ><input type="text" name="father's_name"> <span class="must">&nbsp*</span></td>
+		<td>&nbsp &nbsp Mother's Name:
+			<input type="text" name="mother's_name"> <span class="must">&nbsp*</span>
+		</td>
+	</tr>
+
+	<tr >
+		<td >&nbsp</td>
+	</tr>
+
+	<tr>
+		<td>Address :</td>
+		<td><textarea name="address" rows="5" cols="35"></textarea><span class="must">&nbsp*</span></td>
+		<td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  Gender:
+		<input type="radio" name="gender" value="Male">Male <span class="must">&nbsp*</span></br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+		<input type="radio" name="gender" value="Female">Female</br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+&nbsp &nbsp &nbsp &nbsp
+		<input type="radio" name="gender" value="Others">Others</td> 
+	</tr>
+
+	<tr >
+		<td rowspan="1">&nbsp</td>
+	</tr>
+
+	<tr>
+		<td>Standard</td>
+		<td> <select  name="standard" style="background-color: white;width:100px;height:50px;color:black;text-align:center;">
+				<option value="">--Select--</option>
+				<option value="V"> V</option>
+				<option value="VI">VI</option>
+				<option value="VII" >VII</option>
+				<option value="VIII" >VIII</option>
+				<option value="IX" >IX</option>
+				<option value="X" >X</option>
+                     </select> <span class="must">&nbsp*</span>
+		</td>
+
+		<td>&nbsp Birthday
+		<input type="date" name="dob"value="30.08.1998"><span class="must">&nbsp*</span></td>
+	</tr>
+	<tr>
+		<td> &nbsp</td>
+	</tr>
+	<tr>
+		<td>Last Markes</td>
+		<td><input type="number" name="lastmarkes"max="100"  style="text-align:center;">% <span class="must">&nbsp*</span></td>
+	</tr>
+	<tr>
+		<td>&nbsp</td>
+	<tr>
+
+	<tr>
+		<td>Hobby</td>
+		<td><select name="hobby">
+			<option value="">--Select--</option>
+			<option value="3d printing">3D Printing </option>
+			<option value="Candle_making">Candle Making</option>
+			<option value="Creative_writing">Creative Writing</option>
+			<option value="dance">Dance</option>
+			<option value="drama">Drama</option>
+			<option value="Drawing">Drawing</option>
+			<option value="Flower_arranging">Flower Arranging</option>
+			<option value="Gaming">Gaming</option>
+			<option value="Painting">Painting</option>
+			<option value="Pet">Pet</option>
+			<option value="Puzzles">Puzzles</option>
+			<option value="video_gaming">Video Gaming</option>
+			<option value="Yoga">Yoga</option>
+			<option value="outdooragame">Outdoor Gameing</option>
+			<option value="others"> Others</option>
+		     </select>
+		</td>
+
+	</tr>
+
+	<tr>
+		<td>&nbsp</td>
+	</tr>
+
+
+	<tr>
+	<td> Mobile No:</td>
+	<td> <input type="text"  name="mobile_no" maxlength="10"><span class="must">&nbsp*</span>	</td>
+	<td> Email No.
+
+	<input type="email" name="email"><br>
+		<small>(if any)</small></td>
+
+	</tr>
+	
+	<tr></tr><tr></tr>
+
+	<tr>
+		<td>  </td>
+		<td>  </td> 
+		
+		<td><input type="submit" name="submit" value="Submit"  > </td>
+	</tr>
+  </table>
+</form>
+
+
+</body>
+</html>

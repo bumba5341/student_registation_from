@@ -1,0 +1,82 @@
+
+<!-- This file for searching data  -->
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+
+body{
+
+background-image:url("4659b95d8c8b8b1.jpg");
+background-size: cover;
+ background-position: center;
+margin-top:100px;
+}
+
+table,td{
+
+border: 1px dotted black;
+margin:auto;
+
+
+}
+
+td{
+padding:10px;
+
+}
+
+h1{
+
+font-size:40px;
+text-align:center;
+}
+
+</style>
+
+</head>
+<body>
+	
+		
+
+	<form action="details.php" method="GET">
+
+			
+	<table>
+
+		<h1> STUDENT  INFORMATION </h1>
+
+		<tr>
+			<td> Enter Your First Name.</td>
+			<td><input type="text" name="first_name"></td>
+		</tr>
+		<tr></tr>
+		<tr>
+			<td>Enter Your Mobile No.</td> 
+			<td><input type="text" name="mobile_no"></td>
+		</tr>
+		<tr> 
+			<td>Standard</td>
+			<td>
+				<select name="stand">
+					<option value=" ">--Select Your Standard--</option>
+					<option value="five" >V </option>
+					<option value="six" >VI </option>
+					<option value="seven" >VII </option>
+					<option value="eigiht" >VIII </option>
+					<option value="nine" >IX </option>
+					<option value="ten" >X </option>			
+				</select>
+			</td>
+		</tr> 
+		<tr>
+			
+			<td colspan="2" style="text-align:center"><input type="submit" name="submit" value="Submit"></td>
+		</tr>
+	</table>
+	</form>
+
+</body>
+</html>
